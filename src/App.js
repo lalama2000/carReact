@@ -29,22 +29,22 @@ function App() {
   //-------------------------------get cars-------------------------------//
 
   const getCars = async () => {
-    const response = await axios.get("http://localhost:3020/api/cars")
+    const response = await axios.get("https://car-api-lama.herokuapp.com/api/cars")
     setCars(response.data)
   }
   //-------------------------------get make-------------------------------//
   const getMakes = async () => {
-    const response = await axios.get("http://localhost:3020/api/makes")
+    const response = await axios.get("https://car-api-lama.herokuapp.com/api/makes")
     setMakes(response.data)
   }
   //-------------------------------get type-------------------------------//
   const getTypes = async () => {
-    const response = await axios.get("http://localhost:3020/api/types")
+    const response = await axios.get("https://car-api-lama.herokuapp.com/api/types")
     setTypes(response.data)
   }
   //-------------------------------get profle-------------------------------//
   const getProfile = async () => {
-    const response = await axios.get("http://localhost:3020/api/auth/profile", {
+    const response = await axios.get("https://car-api-lama.herokuapp.com/api/auth/profile", {
       headers: {
         Authorization: localStorage.tokenCars,
       },
@@ -69,7 +69,7 @@ function App() {
         phoneNumber: form.elements.phoneNumber.value,
         password: form.elements.password.value,
       }
-      await axios.put("http://localhost:3020/api/auth/profile", profileBody, {
+      await axios.put("https://car-api-lama.herokuapp.com/api/auth/profile", profileBody, {
         headers: {
           Authorization: localStorage.tokenCars,
         },
@@ -94,7 +94,7 @@ function App() {
         phoneNumber: form.elements.phoneNumber.value,
         password: form.elements.password.value,
       }
-      await axios.post("http://localhost:3020/api/auth/signup", userBody)
+      await axios.post("https://car-api-lama.herokuapp.com/api/auth/signup", userBody)
       console.log("signup succses")
       navigate("/login")
     } catch (error) {
@@ -113,7 +113,7 @@ function App() {
         email: form.elements.email.value,
         password: form.elements.password.value,
       }
-      const response = await axios.post("http://localhost:3020/api/auth/login", userBody)
+      const response = await axios.post("https://car-api-lama.herokuapp.com/api/auth/login", userBody)
       const token = response.data
       localStorage.tokenCars = token
 
@@ -151,7 +151,7 @@ function App() {
   //-------------------------------get like-------------------------------//
   const likeCar = async carId => {
     try {
-      const response = await axios.get(`http://localhost:3020/api/cars/${carId}/likes`, {
+      const response = await axios.get(`https://car-api-lama.herokuapp.com/api/cars/${carId}/likes`, {
         headers: {
           Authorization: localStorage.tokenCars,
         },
@@ -169,7 +169,7 @@ function App() {
   const purchaseCar = async carId => {
     try {
       const response = await axios.post(
-        `http://localhost:3020/api/orders/${carId}`,
+        `https://car-api-lama.herokuapp.com/api/orders/${carId}`,
         {},
         {
           headers: {
