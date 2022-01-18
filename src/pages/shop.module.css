@@ -1,0 +1,45 @@
+.title {
+    font-weight: bold;
+    padding-top: 110px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.shopType {
+    padding-top: 250px;
+}
+
+.subTitel {
+    text-align: center;
+}
+
+.cardType {
+    border: rgb(255, 255, 255) solid;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.cardMake {
+    width: 70%;
+    border: rgb(255, 255, 255) solid;
+    border-radius: 2px;
+}
+
+.displayType {
+    width: 50%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.displayMake {
+    width: 50%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}

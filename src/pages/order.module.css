@@ -1,0 +1,82 @@
+/* .all {
+    align-items: center;
+}
+
+.f1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.pragraph {
+    text-align: center;
+}
+
+.Form {
+    display: flex;
+    justify-content: center;
+    right: 100%;
+    padding-left: 27%;
+    padding-right: 27%;
+
+} */
+
+
+.head {
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+
+
+}
+.text{
+    padding-top: 2%;
+    font-size: 19px;
+}
+
+/* input, select {
+    text-align: center;
+    width: 100%;
+    padding: 9px;
+    border: 1px solid rgb(128, 137, 155);
+    border-radius: 30px;
+}
+
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+} */
+
+
+.button {
+    text-decoration: none;
+    background-color: #0a0c6b;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    /* width: 50%; */
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* .buttonOdrder:not(:disabled):hover,
+.buttonOdrder:not(:disabled):focus {
+    outline: 0;
+    color: rgb(255, 255, 255);
+    background: #0a0c6b;
+} */
+
+.button:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+    color: rgb(255, 255, 255);
+
+}

@@ -1,0 +1,69 @@
+.title {
+    padding-top: 15%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.allText {
+    padding-top: 10%;
+}
+
+.textOne {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.textEmail {
+    text-align: center;
+    color: rgb(2, 2, 255);
+    font-size: 20px;
+}
+
+.textTow {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.textPhone {
+    text-align: center;
+    color: rgb(2, 2, 255);
+    font-size: 20px;
+}
+
+.textTime {
+    text-align: center;
+    color: rgba(105, 105, 109, 0.756);
+
+}
+
+.wayTitle {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.thiredTitle {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+    ;
+}
+
+
+.forthTitle {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+  
+}
+
+.fifthTitle {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+    ;
+}

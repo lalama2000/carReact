@@ -1,0 +1,69 @@
+li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.displayType {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap:20%;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; */
+}
+
+
+.cards {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 25%;
+
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+
+    padding: 2px 16px;
+}
+
+.more {
+    border-radius: 15px;
+}
+
+
+/* CSS */
+.buttCompare {
+    background-color: #a22020f0;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.buttCompare:not(:disabled):hover,
+.buttCompare:not(:disabled):focus {
+    /* outline: 0;
+    background: #0c3478; */
+    box-shadow: 0 0 0 2px rgb(0, 0, 0), 0 3px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.buttCompare:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}

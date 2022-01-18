@@ -1,0 +1,22 @@
+.title {
+    padding-top: 8%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    color: rgba(129, 129, 136, 0.849);
+}
+
+.button {
+    align-items: center;
+}
+
+.order {
+    text-align: center;
+}
+.likeCar{
+    display: flex;
+    
+}

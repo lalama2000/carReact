@@ -1,0 +1,39 @@
+.imageCar {
+    max-width: 550px;
+    max-height: 250px;
+}
+
+.CompareAll {
+    
+    display: flex;
+    /* padding-left: 140px; */
+    justify-content: center;
+
+
+} 
+.heading{
+    margin-bottom: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+.table{
+    max-width: 600px;
+}
+
+.orderAll {
+    max-width: 500px;
+    /* display: flex; */
+}
+ 
+.compareTable {
+    max-width: 360px;
+}
+/* .orderItem {
+    text-align: center;
+
+}
+
+.oneLine {
+    margin-left: 6%;
+}  */

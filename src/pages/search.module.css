@@ -1,0 +1,76 @@
+.title {
+    padding-top:6%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.looking {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 250px;
+    color: rgb(14, 14, 17);
+}
+
+ .search {
+    transform: translate(40%, 50%);
+    width: 60%;
+    display: flex;
+}
+
+.searchTerm {
+    width: 300%;
+    padding: 5px;
+    height: 45px;
+}
+
+.searchTerm:focus {
+    color: #000000;
+}
+
+.searchButton {
+    margin-left: 35px;
+    padding-right: 350px;
+    width: 60%;
+    border: 1px solid #4a64f8fb;
+    background: #4a64f8fb;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.conter {
+    background-color: white;
+} 
+
+/* .wayTitle {
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+}
+
+.thiredTitle {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+    ;
+}
+
+
+.forthTitle {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+    ;
+}
+
+.fifthTitle {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(12, 28, 82);
+    ;
+} */

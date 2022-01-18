@@ -1,0 +1,70 @@
+.span1 {
+    color: #000000;
+}
+
+.span2 {
+    color: #000000;
+    margin: 5px;
+
+}
+
+.span3 {
+    color: #000000;
+    margin: 5px;
+
+
+}
+
+.span4 {
+    color: #000000;
+    margin: 5px;
+
+
+}
+
+.span5 {
+    color: #000000;
+    margin: 5px;
+
+
+}
+
+
+.h1 {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    transform: translate(-14%, -14%);
+
+}
+
+.navbaritem a {
+    display: flex;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #201c1c;
+}
+
+.navbaritem a:hover {
+    background-color: rgba(184, 194, 204, 0.479);
+    border-radius: 9px;
+
+}
+
+li {
+    position: relative;
+    padding: 20px 10px;
+    bottom: 0;
+
+}
