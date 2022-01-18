@@ -126,7 +126,6 @@ function App() {
       else console.log(error)
     }
   }
-
   //-------------------------------logout-------------------------------//
 
   const logout = () => {
