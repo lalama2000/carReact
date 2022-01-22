@@ -7,13 +7,12 @@ import Whaite from "../assets/Whaite.mp4"
 function Shop() {
   const { cars, types, makes } = useContext(CarsContext)
   const carsMap = cars.map(car => car.year)
-  console.log(carsMap)
+  // console.log(carsMap)
   const yearCar = new Set(carsMap)
-  console.log(yearCar)
+  // console.log(yearCar)
   const years = Array.from(yearCar)
-  console.log(years)
-
-  years.forEach(year => console.log(year))
+  // console.log(years)
+  // years.forEach(year => console.log(year))
 
   return (
     <div className={styles.carHeader}>

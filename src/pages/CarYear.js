@@ -34,7 +34,7 @@ function CarYear() {
           <p>
             {car.price} SAR | {car.miles} mi
           </p>
-          <div style={{ color: compareCar.find(ccId => ccId == car._id) ? "blue" : "white" }}>
+          <div>
           <div className={styles.buttonMove}>
             <button className={styles.buttCompare} onClick={() => updateCar(car._id)}>
               Compare

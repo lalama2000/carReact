@@ -157,7 +157,6 @@ function App() {
       })
       getCars()
       getProfile()
-      toast.success(response.data)
     } catch (error) {
       if (error.response) toast.error(error.response.data)
       else console.log(error)
@@ -177,7 +176,6 @@ function App() {
         }
       )
       getProfile()
-      toast.success(response.data)
       navigate("/thank")
     } catch (error) {
       if (error.response) toast.error(error.response.data)

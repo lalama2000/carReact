@@ -14,7 +14,7 @@ function CarMake() {
   let carsByMake
 
   carsByMake = cars.filter(car => car.make.name === makeName)
-
+//compare Cars
   const updateCar = carId => {
     const carFound = compareCar.find(ccId => ccId === carId)
     if (!carFound) {
@@ -39,7 +39,7 @@ function CarMake() {
             <p>
               {car.price} SAR | {car.miles} mi
             </p>
-            <div style={{ color: compareCar.find(ccId => ccId == car._id) ? "blue" : "white" }}>
+            <div>
               <button className={styles.buttCompare} onClick={() => updateCar(car._id)}>
                 Compare
               </button>
